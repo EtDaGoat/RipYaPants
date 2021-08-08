@@ -1,0 +1,127 @@
+{
+    "main_config": {
+        "token": "your-bot-token",
+        "prefix": "h!",
+        "yourservername": "your-prefered-server-name",
+        "yourserverid": "your-guild-id",
+        "copyright": "© 2021 Hyperz Zone",
+        "colorhex": "#0362fc",
+        "voicechanneltojoin": "your-voicechannel-id"
+    },
+
+    "presence_config": {
+        "preschangetimer": "10000",
+        "presname1": "HypeBot V3",
+        "prestype1": "PLAYING",
+        "presstatus1": "dnd",
+        "presname2": "This server grow!",
+        "prestype2": "WATCHING",
+        "presstatus2": "dnd",
+        "presname3": "Jelly's Music",
+        "prestype3": "LISTENING",
+        "presstatus3": "dnd"
+    },
+
+    "new_user_config": {
+        "enabled": true,
+
+        "useMemberCount": true,
+        "membercountchannelid": "your-member-counting-channel-id",
+
+        "useembeds": true,
+        "useservername": true,
+
+        "useautorole": true,
+        "memberroleids": ["your-member-role-id"],
+
+        "usejoinmessage": true,
+        "userjoinchannels": ["your-welcome-channel-id"],
+        "userjoinheader": "Welcome User!",
+        "userjoinmessage": "Please read the rules channel before taking part in the server!",
+
+        "useleavemessage": true,
+        "userleavechannels": ["your-leave-channel-id"],
+        "userleaveheader": "Goodbye User!",
+        "userleavemessage": "We hope you enjoyed your stay!"
+    },
+
+    "moderation_config": {
+        "enabled": true,
+
+	"enable_dm_command": true,
+        "dm_command_use_embeds": true,
+
+        "mutedroleid": "your-muted-role-id"
+    },
+
+    "assistant_config": {
+        "enabled": true,
+
+        "usePayPal": true,
+        "paypalLink": "https://hyperz.dev/paypal",
+
+        "useCashApp": true,
+        "cashappLink": "https://hyperz.dev/cashapp",
+
+        "useVenmo": true,
+        "venmoLink": "https://hyperz.dev/venmo",
+
+        "reviewschannelids": ["your-reviews-channel-id"],
+        "suggestionschannelids": ["your-suggestions-channel-id"],
+
+        "tosLink": "https://hyperz.dev/tos",
+        "yourwebsite": "https://hyperz.dev"
+    },
+
+    "altprev_config": {
+        "enabled": true,
+
+        "banalts": true,
+        "dmalts": true
+    },
+
+    "filter_config": {
+        "enabled": true,
+
+        "bad_words": ["fuck", "shit", "nigger", "discord.gg", "dick"]
+    },
+
+    "tickets_config": {
+        "enabled": true,
+
+        "ticketscategoryid": "your-tickets-category-id",
+        "newticketmessage": "We have created your ticket! Please wait for a staff member to enter the ticket!"
+    },
+
+    "permissions_config": {
+        "staffperms": ["your-staff-role-id"],
+        "ticketmanagers": ["your-ticketsupport-role-id"],
+        "assistantmanagers": ["your-salesteam-role-id"],
+        "bypasslangfilters": ["your-friends-role-id"]
+    },
+
+    "logging_config": {
+        "enable_deleted_messages_logging": true,
+        "deleted_messages_channels": ["your-logging-channel-id"],
+
+        "enable_edited_messages_logging": true,
+        "edited_messages_channels": ["your-logging-channel-id"],
+
+        "enable_command_logging": true,
+        "command_logging_channels": ["your-logging-channel-id"],
+
+        "enable_ticketarchive_logging": true,
+        "ticketarchive_logging_channels": ["your-logging-channel-id"],
+
+	"enable_botsdm_logging": true,
+        "botsdm_logging_channels": ["your-logging-channel-id"],
+
+        "enable_altprev_logging": true,
+        "altprev_logging_channels": ["your-logging-channel-id"]
+    },
+
+    "other_configuration": {
+        "usemusic": true,
+        "serverinvite": "https://hyperz.dev/discord"
+    }
+}
